@@ -1,0 +1,40 @@
+{
+  "name": "codev",
+  "version": "1.0.0",
+  "description": "项目代码可视化工具",
+  "main": "lib/codev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --inspect-brk=5858 bin/codev.js -c ./test/config.js",
+    "build": "codev -c ./test/config.js"
+  },
+  "bin": {
+    "codev": "bin/codev.js"
+  },
+  "keywords": [],
+  "author": "🍁",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "colors": "^1.3.3",
+    "commander": "^2.20.0",
+    "concat-stream": "^2.0.0",
+    "eslint": "^6.0.0-alpha.1",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.2.0",
+    "less": "^3.9.0",
+    "merge": "^1.2.1",
+    "mime-types": "^2.1.24",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.14",
+    "request": "^2.88.0",
+    "stylus": "^0.54.5",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0"
+  }
+}
