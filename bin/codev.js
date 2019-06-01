@@ -87,11 +87,8 @@ codev.addHook('codevEnd', function (result){
   console.log(new Date().getTime() - global.time)
 
   global.arrs = []
-  for (let i = 0; i < result.moduleTree.moduleKeys.length; i ++) {
-    const k = result.moduleTree.moduleKeys[i]
-    const m = result.moduleTree.modules[k]
-    m.errNum = m.warning.length
-    global.arrs.push(m)
+  for (let k in result.moduleTree.modules) {
+    
   }
 })
 
