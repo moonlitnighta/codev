@@ -1,0 +1,63 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; box-sizing: border-box;}  
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; outline:medium;}  
+h1, h2, h3, h4, h5, h6{ font-size:100%; }  
+address, cite, dfn, em, var { font-style:normal; }  
+code, kbd, pre, samp { font-family:canada-type-gibson,sans-serif,couriernew, courier, monospace; }  
+small{ font-size:12px; }  
+ul, ol { list-style:none; }  
+a { text-decoration:none; }  
+a:hover { text-decoration:underline; }  
+sup { vertical-align:text-top; }  
+sub{ vertical-align:text-bottom; }  
+legend { color:#000; }  
+fieldset, img { border:0; }  
+button, input, select, textarea { font-size:100%; }  
+
+@font-face {font-family: "canada-type-gibson";
+  src: url('./l.ttf') format('truetype');
+}
+body, html, .app{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: canada-type-gibson;
+  color: #1C2E3F;
+}
+
+.app {
+  position: relative;
+  background: radial-gradient(51% 51%, #ffffff 30%, #eeeeee)
+}
+
+.logo {
+  position: absolute;
+  top: 2vh;
+  left: 2vh;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.project-info {
+  width: 80%;
+  height: 9vh;
+  position: absolute;
+  bottom: 2vh;
+  left: 10%;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 9vh;
+  color: #1C2E3F;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 2vh 6vh;
+  display: flex;
+  font-weight: 300;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.project-info span {
+  color: #34DA88;
+}
+

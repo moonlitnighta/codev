@@ -80,15 +80,5 @@ options = merge({}, cfg, options)
 options.config = cfg
 
 // 构建
-global.__n = 0
-global.time = new Date().getTime()
 const codev = new Codev(options)
-codev.addHook('codevEnd', function (result){
-  console.log(new Date().getTime() - global.time)
-
-  global.arrs = []
-  for (let k in result.moduleTree.modules) {
-    
-  }
-})
 

@@ -1,8 +1,8 @@
 {
-  "name": "codev",
+  "name": "@nocturneffg/code-v",
   "version": "1.0.0",
   "description": "项目代码可视化工具",
-  "main": "lib/codev.js",
+  "main": "lib/Codev.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --inspect-brk=5858 bin/codev.js -c ./test/config.js",
@@ -12,7 +12,7 @@
     "codev": "bin/codev.js"
   },
   "keywords": [],
-  "author": "🍁",
+  "author": "枫🍁",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.4.4",
@@ -22,13 +22,16 @@
     "colors": "^1.3.3",
     "commander": "^2.20.0",
     "concat-stream": "^2.0.0",
+    "d3": "^5.9.2",
     "eslint": "^6.0.0-alpha.1",
     "esprima": "^4.0.1",
     "estraverse": "^4.2.0",
+    "express": "^4.17.1",
     "less": "^3.9.0",
     "merge": "^1.2.1",
     "mime-types": "^2.1.24",
     "node-sass": "^4.12.0",
+    "opn": "^6.0.0",
     "postcss": "^7.0.14",
     "request": "^2.88.0",
     "stylus": "^0.54.5",
