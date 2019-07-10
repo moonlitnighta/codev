@@ -1,6 +1,6 @@
 {
   "name": "@nocturneffg/code-v",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "项目代码可视化工具",
   "main": "lib/Codev.js",
   "scripts": {
